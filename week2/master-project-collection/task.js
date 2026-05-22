@@ -41,3 +41,53 @@ export function completeTask(taskId) {
   task.completed = true;
   return { success: true, message: 'Task marked as complete', task };
 }
+ Methods Used in task.js
+1. validateTitle(), validatePriority(), validateDueDate()
+Purpose: These are custom validation functions (imported from validator.js) that check whether the task’s title, priority, and due date are valid.
+
+Use case: Ensures that only properly formatted and meaningful data is added to the task list.
+
+2. push()
+Purpose: Adds a new element to the end of an array.
+
+Use case in code:
+
+javascript
+tasks.push(newTask);
+This stores the newly created task inside the tasks array.
+
+3. find()
+Purpose: Returns the first element in an array that satisfies a condition.
+
+Use case in code:
+
+javascript
+const task = tasks.find(t => t.id === taskId);
+This locates the task with the matching id.
+
+4. toLowerCase()
+Purpose: Converts a string to lowercase.
+
+Use case in code:
+
+javascript
+priority: priority.toLowerCase()
+This ensures that priority values (e.g., "HIGH", "High") are stored consistently in lowercase.
+
+5. new Date()
+Purpose: Creates a new JavaScript Date object.
+
+Use case in code:
+
+javascript
+dueDate: new Date(dueDate)
+This converts the provided due date string into a Date object for easier manipulation.
+
+6. Return Objects ({ success, message, task })
+Purpose: Instead of just returning raw values, each function returns a structured object with:
+
+success → Boolean indicating if the operation worked.
+
+message → Human-readable feedback.
+
+task → The task object (when applicable).
