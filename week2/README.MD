@@ -1,41 +1,45 @@
-# Topics Covered
+JavaScript Methods Overview
+🔍 filter()
+Purpose: Creates a new array with elements that pass a test (condition).
 
-* JavaScript Functions
-* ES6 Features
-* Arrow Functions
-* Callback Functions
-* String Operations
-### Important Syntax
+Use case: Filtering values (e.g., temperatures above 35).
 
-| Syntax                  | Purpose                          |
-| ----------------------- | -------------------------------- |
-| Arrow Function (=>)     | Short function syntax            |
-| Template Literals       | Dynamic strings                  |
-| Default Parameters      | Default values in functions      |
-| Rest Operator (...args) | Accepts multiple arguments       |
-| Callback Functions      | Function inside another function |
+🔄 map()
+Purpose: Creates a new array by applying a function to each element.
 
-### Example
+Use case: Transforming values (e.g., converting Celsius → Fahrenheit).
 
-```js
-const greet = (name) => {
-   return `Hello ${name}`;
-}
-```
-### TO-DO APP MODULES
-APP --- MAIN
-TASK -- CREATE TASK
-VALIDATOR -- VALIDATE TASK
+➕ reduce()
+Purpose: Reduces an array to a single value by applying a function cumulatively.
 
----
+Use case: Summarizing data (e.g., calculating average temperature).
 
-### SHALLOW DEEP COPY
+ find()
+Purpose: Returns the first element in an array that satisfies a condition.
 
-```js
-let arr1 = [1, 2, 3, 4, 5];
-let arr2 = arr1;
-arr2.push(6);
-console.log(arr1); // [1, 2, 3, 4, 5, 6]
+Use case: Finding the first temperature above 40.
 
-shallow deep copy is not possible in JS because of the reference types.
-instead of using arr2 = arr1, we use arr2 = arr1.slice();
+ findIndex()
+Purpose: Returns the index of the first element that satisfies a condition.
+
+Use case: Locating the position of a specific value (e.g., temperature 28).
+
+ slice()
+Purpose: Extracts a section of an array or string without modifying the original.
+
+Use case: Getting a subset of data (e.g., first 3 temperatures).
+
+ Date Methods
+Purpose: Work with dates and times.
+
+Examples:
+
+getFullYear() → Returns year.
+
+getMonth() → Returns month (0–11).
+
+getDate() → Returns day of the month.
+
+getHours(), getMinutes(), getSeconds() → Time components.
+
+setFullYear(year) → Updates the year.
