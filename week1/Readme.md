@@ -1,6 +1,4 @@
-# MERN Training Repository
 
-Repository Link: [https://github.com/Mahitha-Allani/MERN_TRAINING/tree/main](https://github.com/Mahitha-Allani/MERN_TRAINING/tree/main)
 
 ---
 
