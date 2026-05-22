@@ -5,7 +5,6 @@
 * Arrow Functions
 * Callback Functions
 * String Operations
-
 ### Important Syntax
 
 | Syntax                  | Purpose                          |
