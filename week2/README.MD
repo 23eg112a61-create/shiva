@@ -1,15 +1,15 @@
-JavaScript Methods Overview
-🔍 filter()
+JavaScript Methods Overview:
+ filter()
 Purpose: Creates a new array with elements that pass a test (condition).
 
 Use case: Filtering values (e.g., temperatures above 35).
 
-🔄 map()
+ map()
 Purpose: Creates a new array by applying a function to each element.
 
 Use case: Transforming values (e.g., converting Celsius → Fahrenheit).
 
-➕ reduce()
+ reduce()
 Purpose: Reduces an array to a single value by applying a function cumulatively.
 
 Use case: Summarizing data (e.g., calculating average temperature).
